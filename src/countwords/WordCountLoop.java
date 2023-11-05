@@ -1,4 +1,4 @@
-package ws4;
+package countwords;
 
 import java.io.BufferedReader;
 import java.io.File;

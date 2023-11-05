@@ -1,4 +1,4 @@
-package ws4;
+package countwords;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -17,12 +17,12 @@ public class WordCountStream{
         String str = Files.readString(file);
 
 
-        int total =
+        /*int total =
         str.
         stream().
         filter(w -> !w.isEmpty()).
         map(w -> w.split(" ")).
-        count();
+        count();*/
     }
 }
 
@@ -121,10 +121,10 @@ groupingBy()
 
 
 Source --stream--> stream operations --stream--> collector
-  */
+*/
 
 
- /* go to file system and create 1 directory - C:\users\fred\vttp
+/* go to file system and create 1 directory 
  
  vttp (under vttp everyday create 1 directory)
   - day01, day02 - make each of this into a repository in git
@@ -137,7 +137,7 @@ Source --stream--> stream operations --stream--> collector
   4. git add .
   git commit -m "__"
   get pursh origin master/main
- */
+ 
 
 /*
  repository root: day01
