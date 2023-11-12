@@ -31,8 +31,11 @@ public class CountWordsStream {
     else{
         System.out.println("No Result");
     } 
+    
+    //////////////////////////////////////////////////////////////////////////////////////
 
-    /*FileReader fr = new FileReader(args[0]);
+
+    FileReader fr = new FileReader(args[0]);
     BufferedReader br = new BufferedReader(fr);
 
     List<String> uniqueList = br.lines()
@@ -50,7 +53,7 @@ public class CountWordsStream {
         System.out.printf("Total number of words = %d\n", uniqueList.size());
 
         // print each word
-        uniqueList.forEach(word ->System.out.println(word)); */
+        uniqueList.forEach(word ->System.out.println(word)); 
 
 
 }
